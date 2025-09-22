@@ -3,6 +3,7 @@
 # Some example TPMs for testing CE path apportionment.
 
 import numpy as np
+import networkx as nx
 
 example1 = np.array([
     [0.0, 0.0, 1.0],
@@ -82,8 +83,6 @@ for b in range(3):
 
 
 # E-R Markov Chain!
-
-import networkx as nx
 
 def generate_markovian_er(n, p, seed) -> nx.DiGraph:
     rand = np.random.default_rng(seed)

@@ -63,7 +63,3 @@ Temporary Items
 
 # VS Code
 .vscode/
-
-# Research specific
-*.zip
-title_snapshot.png
