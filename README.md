@@ -38,7 +38,7 @@ Import the core modules and explore a predefined system from the collection in `
 
 For comparative analysis between different merging metrics, use the `det_spec_explorer.py` to examine how determinism-only and specificity-only forced paths differ from a standard CE 2.0 apportionment. This intution is key in understanding CE 2.0 and underlying causal dynamics.
 
-Provide your own transition probability matrix to the `explore()` function in `ce_explorer.py` to generate the apportionment sequence. The system expects $n \by n$ matrices representing the transition probabilities between all possible states of your discrete dynamical system microstate.
+Provide your own transition probability matrix to the `explore()` function in `ce_explorer.py` to generate the apportionment sequence. The system expects $n \times n$ matrices representing the transition probabilities between all possible states of your discrete dynamical system microstate.
 
 ## Dependencies
 
